@@ -22,7 +22,7 @@ GreyCodeJS is a lightweight, flexible Node.js framework built on Express that si
 npm install -g greycodejs-installer
 
 # Create a new project
-greycodejs new my-project
+greycodejs-installer new my-project
 
 # Navigate to your project
 cd my-project
