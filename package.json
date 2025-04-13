@@ -1,0 +1,37 @@
+{
+  "name": "greycodejs-installer",
+  "version": "0.1.4",
+  "description": "Installer for the GreyCode.js Framework",
+  "main": "index.js",
+  "bin": {
+    "greycodejs-installer": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "greycodejs",
+    "installer",
+    "cli",
+    "framework",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.5.0",
+    "degit": "^2.8.4",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.6",
+    "listr": "^0.14.3",
+    "ora": "^5.4.1",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "@greycode/gitignore_init": "^0.0.2"
+  }
+}
